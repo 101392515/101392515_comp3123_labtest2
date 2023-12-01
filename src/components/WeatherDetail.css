@@ -1,0 +1,29 @@
+.weather-detail-container {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.weather-detail-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.weather-detail-title {
+  font-weight: 600;
+  color: #333;
+}
+
+.weather-detail-value {
+  font-weight: 400;
+  color: #666;
+}
+
+.weather-detail-item:last-child {
+  border-bottom: none;
+}
